@@ -4351,6 +4351,36 @@ mor-multiform.st-disabled>.itemlist>.itemwrap>.item.add:hover{cursor:default
 }
 mor-multiform.st-disabled>.itemlist:hover{border-color:#a6a6a6
 }
+mor-textinput{position:relative;z-index:1;display:block;width:100%;box-sizing:border-box;vertical-align:middle
+}
+mor-textinput input{box-sizing:border-box;z-index:2;font-size:14px;padding:0 1em;width:100%;background:#fff;border:1px #e6e6e6 solid;border-radius:3px;height:42px;line-height:42px;color:#b3b3b3!important;outline:0;-webkit-appearance:none
+}
+mor-textinput input::-webkit-input-placeholder{color:#b3b3b3
+}
+mor-textinput input::placeholder{color:#b3b3b3
+}
+mor-textinput input:hover{border-color:#d7d7d7;color:#9a9a9a!important
+}
+mor-textinput input:focus{border-color:#8e9caf;color:#17212d!important
+}
+mor-textinput.input-group{display:flex;vertical-align:middle
+}
+mor-textinput.input-group .input-group-addon{padding:6px 12px;font-size:.875em;color:#7c8ba0;text-align:center;background-color:#f0f0f0;border:1px solid #e6e6e6;white-space:nowrap;border-radius:3px;display:flex;align-items:center;justify-content:center
+}
+mor-textinput.input-group .input-group-addon:first-child{border-right:0
+}
+mor-textinput.input-group .input-group-addon,mor-textinput.input-group input{vertical-align:middle;margin:0
+}
+mor-textinput.input-group .input-group-addon:first-child,mor-textinput.input-group input:first-child{border-top-right-radius:0;border-bottom-right-radius:0
+}
+mor-textinput.input-group .input-group-addon:nth-child(2),mor-textinput.input-group input:nth-child(2){border-top-left-radius:0;border-bottom-left-radius:0
+}
+mor-textinput.input-group input+.input-group-addon{border-top-left-radius:0;border-bottom-left-radius:0;border-left:0
+}
+mor-textinput.input-group .input-group-addon+input.has-append{border-top-right-radius:0;border-bottom-right-radius:0
+}
+mor-textinput.st-disabled input[disabled]{border:1px #a6a6a6 solid;background-color:#ebebeb;-webkit-user-select:none;cursor:not-allowed!important;color:#8d8d8d!important
+}
 mor-upload{position:relative;z-index:1;display:inline-block;width:100%;box-sizing:border-box;vertical-align:middle;-webkit-user-select:none
 }
 mor-upload>.filelist{border:1px #e6e6e6 solid;border-radius:3px;padding:3.2px 4.8px;position:relative;overflow:hidden;min-height:42px;font-size:0;background:#fff;box-sizing:border-box
